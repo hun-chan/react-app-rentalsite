@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-family: 'Quicksand';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:rgb(255, 254, 248) ;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  padding-right: 2vw;
+  padding-left: 2vw;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  font-weight: 500;
+  font-size: 3vw;
+  z-index: 4;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 30px;
+  text-decoration: none;
+  font-size: 1.5vw;
+  padding: 10px;
+  position: relative;
+  z-index: 4;
+}
+
+.goodlinks{
+  margin-left: 10px;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 1.5vw;
+  padding: 10px;
+  position: relative;
+  z-index: 4;
+}
+
+.navbar a:hover {
+  color: #f1356d;
+}
+.UserIcon {
+  color:#f1356d;
+  box-shadow: 2px 2px 2px #2196F3;
+  border-radius: 15px;
+}
+
+/*Home Page*/
+.home {
+  /*background-color: #f1356d;*/
+  height: 100%;
+  padding: 30px;
+}
+.moving-circle{
+  position: absolute;
+  background-color: #2196F3;
+  margin-left: 50px;
+  padding: 150px;
+  border-radius: 99em;
+}
+.content {
+  max-width: 50vw;
+  margin: 4%;
+  font-size:6vw;
+  padding-bottom: 100px;
+}
+.home a {
+  text-decoration: none;
+  font-size: 2vw;
+  padding: 0px;
+}
+.home a:hover {
+  color: #00ffea;
+}
+
+
+/* rentals previews / list */
+.rental-list{
+  padding: 3vw;
+  padding-top: 1vw;
+  margin: 5vw;
+  background-color: rgb(219, 234, 247);
+  background-color: #4c9fe4;
+  border-radius: 20px;
+}
+.rental-list h1{
+  font-size: 2vw;
+  font-weight: normal;
+}
+.rental-list input{
+  margin-right: 10px;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 10px;
+  font-size: 1vw;
+}
+.rental-list h1{
+  font-weight: bolder;
+  font-size: 3.5vw;
+}
+.rental-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+  background-color: rgb(253, 249, 244);
+  border-radius: 20px;
+}
+.rental-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.rental-preview h2 {
+  font-size: 2.5vw;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.rental-preview p {
+  font-size: small;
+}
+.rental-preview a{
+  text-decoration: none;
+}
+
+/* login page*/
+.login-page {
+  display: flex;
+  margin:20vmin;
+}
+.login-page input{
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 15px;
+}
+.login-block{
+  margin:auto;
+  padding: 30px;
+  border-radius: 30px;
+  text-align: center;
+  background-color: rgb(219, 234, 247);
+  background-color: #f37521;
+}
+.login-block form{
+  text-align: center;
+  font-weight: 600;
+}
+.login-block input{
+  padding: 5px;
+  margin:1%;
+}
+.login-block h1 {
+  margin: auto;
+  margin-bottom: 30px;
+}
+.login-page a{
+  text-decoration: none;
+  font-weight: bolder;
+  border-radius: 20px;
+  padding: 5px;
+  color:#fafafa;
+}
+
+/* User Page*/
+.user-page {
+  padding: 3vw;
+  margin: 3vmin;
+  border-radius: 20px;
+  display: flex;
+  background-color: #2196F3;
+  height: 1000%;
+}
+.user-page h1{
+  font-size: 1.5vw;
+  align-self: center;
+  padding: 1vw;
+  margin: 2vw;
+  border-radius: 30px;
+  background-color: rgb(219, 234, 247);
+}
+.user-page h2{
+  font-size: 2vw;
+  font-weight: normal;
+}
+.userpage-content {
+  margin-left: 2vw;
+  font-size: 1.5vw;
+  margin-top: 1vw;
+  border-radius: 30px;
+  background-color: rgb(219, 234, 247);
+}
+.user-rent-list {
+  margin: 2vw;
+  border-radius: 30px;
+}
+.user-profile {
+  margin: 2vw;
+  border-radius: 30px;
+}
+
+/* HP file*/
+.HPFile{
+  padding: 10vw;
+  border-radius: 30px;
+  background-color: rgb(219, 234, 247);
+  margin: 5vmin;
+}
+.HPFile div{
+  font-size: 2vw;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  margin: 50px;
+}
+.HPFile a{
+  text-decoration: none;
+  font-weight: bolder;
+  border-radius: 20px;
+  padding: 5px;
+  color:#2196F3;
+}
+.HPFile button{
+  text-decoration: none;
+  border-width: 0ch;
+  border-radius: 20px;
+  padding: 5px;
+  color:#2196F3;
+}
+
+.rental-preview button{
+  margin-left: 50px;
+  text-decoration: none;
+  border-width: 0ch;
+  border-radius: 20px;
+  padding: 5px;
+}
+.goodbuttons {
+  margin-left: 50vw;
+  text-decoration: none;
+  border-width: 0ch;
+  border-radius: 20px;
+  padding: 5px;
+}
+.rental-preview button :hover{
+  background-color: #f1356d;
+  color:#2196F3;
+}
